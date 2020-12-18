@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +6,8 @@
 }
 
 body{
-    background: linear-gradient(83deg,#06b161 47%, #52b678 38%, #1a221f);
+    background:url(assets/mcode1.jpg) ;
+    background-size:cover;
     text-align: center;
     justify-content: center;
     display: block;
@@ -21,22 +21,24 @@ body{
     margin:auto;
 }
 h2{
-    font-family: 'Dancing Script', cursive;
+    font-family:'Roboto', sans-serif;;
     font-weight: bolder;
     font-size: 35px;
     padding: 20px;
     margin-top:4.5rem;
+    color:#fff;
 }
 p{
-    font-family:'Satisfy', cursive; 
+    font-family:'Roboto', sans-serif;; 
     font-size:20px;
     margin-bottom: 20px;
+    color:#fff;
     }
 #txt-input{
     height:13rem;
     width: 15rem;
     outline:none;
-    border: 1px solid rgb(3, 54, 3);
+    border: 1px solid rgb(231, 240, 231);
     border-radius:15px;
     position: relative;
     top:6rem;
@@ -46,11 +48,12 @@ p{
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     font-family:'Dancing Script', cursive ;
     font-size:1.4em;
+    color:#fff;
    
 }
 
 ::placeholder{
-    color: black;
+    color: #fff;
     padding: 15px;
     margin: 10px;
     overflow: hidden;
@@ -78,7 +81,7 @@ p{
     height:13rem;
     width: 15rem;
     outline:none;
-    border: 1px solid rgb(3, 54, 3);
+    border: 1px solid rgb(231, 240, 231);
     border-radius:15px;
     position: relative;
     top:6rem;
@@ -88,6 +91,7 @@ p{
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     font-family:'Dancing Script', cursive ;
     font-size:25px;
+    color:#fff;
    
 }
 
@@ -103,8 +107,8 @@ p{
     }
     #btn-translate{
         position: absolute;
-        top: 499px;
-     left: 157px;
+        top: 471px;
+     left: 136px;
     }
  }
  @media only screen and (max-width: 375px) {
@@ -119,8 +123,8 @@ p{
     }
     #btn-translate{
          position: absolute;
-         top: 543px;
-         left: 143px;
+         top: 487px;
+         left: 135px;
     }
  }
  @media only screen and (max-width: 320px) {
@@ -135,7 +139,7 @@ p{
     }
     #btn-translate{
          position: absolute;
-         top: 527px;
+         top: 512px;
          left: 107px;
     }
  }
